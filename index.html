@@ -4,151 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renqing Li | Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <!-- // Intro -->
-    <header>
-        <img src="your-picture.jpg" alt="Your Name">
-        <h1>Renqing Li</h1>
-        <h2>Seeking a full-time Web Developer position or an intern.</h2>
-        <ul>
-            <li>Familiar with React.js</li>
-            <li>Familiar with Vagrant and Laravel Framework</li>
-            <li>Programming Languages: Java, Python, C/C++, C#, HTML, CSS, JavaScript, PHP, and SQL.</li>
-            <li>Database: PostgreSQL</li>
-            <li>Software: Vagrant, Laravel, Postman, pgAdmin, Atom, and Git.</li>
-            <li>Skills : REST API,Node.js</li>
-        </ul>
+    <header role="banner">
+        <div class="content-wrap">
+            <img class="profile-img col-narrow" src="imges/doll.jpg" alt="Ren">
+            <div class="col-wide">
+                <h1>Renqing Li</h1>
+                <h2>Seeking a full-time Web Developer position or an intern.</h2>
+                <ul>
+                    <li>Familiar with React.js</li>
+                    <li>Familiar with Vagrant and Laravel Framework</li>
+                    <li>Programming Languages: Java, Python, C/C++, C#, HTML, CSS, JavaScript, PHP, and SQL.</li>
+                    <li>Database: PostgreSQL</li>
+                    <li>Software: Vagrant, Laravel, Postman, pgAdmin, Atom, and Git.</li>
+                    <li>Skills : REST API,Node.js</li>
+                </ul>
+            </div>
+        </div>
+    </header>
     
-    <main> 
+    <main role="main"> 
         <!-- // Work Experience -->
-        <section>
-            <h2>Work Experience</h2>
+        <section class="work">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Software Development Internship </h3>
-            <p>Techcliks</p>
-            <p>July 2017 – Oct 2017</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Setup Build Environment:</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Installed a Vagrant box with Nginx and PostgreSQL built-in:</p>
-            <ul>
-                <li>Installed and updated necessary packages through command lines.</li>
-                <li>Navigated and Modified configuration files.</li>
-                <li>Solved errors by navigating through the error logs. </li>
-                <li>Installed and tested PostgreSQL.</li>
-            </ul>
-            
-             <!-- Add as many paragraphs as you need. -->
-            <p>Laravel Projects:</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Built a Laravel Blog to understand the framework:</p>
-            <ul>
-                <li>Learned skills such as using Bootstrap and layout with Blade.</li>
-                <li>Learned the programming paradigm, Model-View-Controller (MVC).</li>
-                <li>Created routes to map CRUD actions.  </li>
-                <li>Tested and verified successfully connected on web server to PostgreSQL. </li>
-            </ul>
-            
-              <p>Built Restful APIs to Get Recent User Login Activities:</p>
-            <ul>
-                <li>Researched on HTTP and stored headers as database fields.</li>
-                <li>Wrote and routed REST methods to PostgreSQL.</li>
-            </ul>
-            
-             <!-- Add as many paragraphs as you need. -->
-            <p>Database Project:</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>This project was to update the client’s existing databas:</p>
-            <ul>
-                <li>Created a form on Microsoft Access upon client’s request.  </li>
-                <li>Connected with existed tables with new tables by creating table relationships. </li>
-                <li>Filtered data with queries.</li>
-                <li>Created a report on only typed location names. </li>
-            </ul>
-            
-            
+                <h3>Software Development Internship </h3>
+                <p>Techcliks</p>
+                <p>July 2017 – Oct 2017</p>
+                
+                <div class="col-narrow">
+                    <h4>Setup Build Environment:</h4>
+                    <p>Installed a Vagrant box with Nginx and PostgreSQL built-in:</p>
+                </div>
+                <div class="col-wide">
+                    <ul>
+                        <li>Installed and updated necessary packages through command lines.</li>
+                        <li>Navigated and Modified configuration files.</li>
+                        <li>Solved errors by navigating through the error logs. </li>
+                        <li>Installed and tested PostgreSQL.</li>
+                    </ul>
+                </div>
+                <br>
+
+                <div class="col-narrow">
+                    <h4>Laravel Projects:</h4>
+                    <p>Built a Laravel Blog to understand the framework:</p>
+                </div>
+                
+                <div class="col-wide">
+                    <ul>
+                        <li>Learned skills such as using Bootstrap and layout with Blade.</li>
+                        <li>Learned the programming paradigm, Model-View-Controller (MVC).</li>
+                        <li>Created routes to map CRUD actions.  </li>
+                        <li>Tested and verified successfully connected on web server to PostgreSQL. </li>
+                    </ul>
+                </div>
+                
+                <div class="col-narrow">
+                  <p>Built Restful APIs to Get Recent User Login Activities:</p>
+                </div>
+                
+                <div class="col-wide">
+                    <ul>
+                        <li>Researched on HTTP and stored headers as database fields.</li>
+                        <li>Wrote and routed REST methods to PostgreSQL.</li>
+                    </ul>
+                </div>
+                 <br>
+
+                <div class="col-narrow">
+                    <h4>Database Project:</h4>
+                    <p>This project was to update the client’s existing databas:</p>
+                </div>
+                
+                <div class="col-wide">
+                    <ul>
+                        <li>Created a form on Microsoft Access upon client’s request.  </li>
+                        <li>Connected with existed tables with new tables by creating table relationships. </li>
+                        <li>Filtered data with queries.</li>
+                        <li>Created a report on only typed location names. </li>
+                    </ul>
+                </div>
+            </div>
             <!-- end of Job Details block. -->
             
         </section>
         
         <!-- // Education -->
-        <section>
-            <h2>Education</h2>
+        <section class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
 
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>University of Washington, Bothell  September 2012 - August 2016</h3>
-            <p>Bachelor of Science in Electrical Engineering </p>
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>University of Washington, Bothell  September 2012 - August 2016</h3>
+                <p>Bachelor of Science in Electrical Engineering </p>
+            </div>
             
-            <!-- Add as many paragraphs as you need. -->
-            <!-- End of school details. -->
         </section>
         
         <!-- // Technical Projects -->
-        <section>
-            <h2>Technical Projects</h2>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>React.js: A Bulletin Board App by Eve Porcello:</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>This app served as an introduction to React.js, a popular JavaScript library for user interfaces:</p>
-            <ul>
-                <li>•	Implemented a class Note and Board as foundational parent/child relationships .</li>
-                <li>•	Utilized create-react-app to sets up a development environment with the latest JavaScript features.</li>
-                <li>•	Fetched data from an API as Json. </li>
-                <li>•	Generate an optimized production build with create-react-app and successfully launched it on Port 5000.</li>
-            </ul>
-            
-             <!-- Add as many paragraphs as you need. -->
-            <p>React.js: Ski Table and Rock Appreciation Website:</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>This is the follow-up lesson of Bulletin Board/react.js lesson:</p>
-            <ul>
-                <li>•	Built with webpack.</li>
-                <li>•	Added and filtered data to a table.</li>
-                <li>•	Added react-icons and background image.  </li>
-                <li>•	Incorporated the React Router. </li>
-                <li>•	Typechecked with PropTypes</li>
-            </ul>
-            
-            <p>HTML:Basic Website Structures byJames Williamson.</p>
-            <p>Basic practices involved applying appropriate Content sectioning elements to given websites</p>
-                <ul>
-                    <li>Formatting Page Strucutres</li>
-                    <li>Displaying images</li>
-                    <li>Using nav, article, and div elements</li>
-                    <li>Linking to pages and downloadable content</li>
-                    <li>Creating lists</li>
-                    <li>Controlling styling (fonts, colors, and more)</li>
-                    <li>Writing basic scripts</li>
-                </ul>
-            
-            
-            <!-- end of Job Details block. -->
+        <section class="technical">
+            <div class="content-wrap">
+                <h2>Technical Projects</h2>
+                
+                <div class="col-narrow">
+                    <h4>React.js: A Bulletin Board App by Eve Porcello:</h4>
+                    <p>This app served as an introduction to React.js, a popular JavaScript library for user interfaces:</p>
+                </div>
+                
+                <div class="col-wide">
+                    <ul>
+                        <li>Implemented a class Note and Board as foundational parent/child relationships .</li>
+                        <li>Utilized create-react-app to sets up a development environment with the latest JavaScript features.</li>
+                        <li>Fetched data from an API as Json. </li>
+                        <li>Generate an optimized production build with create-react-app and successfully launched it on Port 5000.</li>
+                    </ul>
+                </div>
+                 <br>
+                
+                <div class="col-narrow">
+                    <h4>React.js: Ski Table and Rock Appreciation Website:</h4>
+                    <p>This is the follow-up lesson of Bulletin Board/react.js lesson:</p>
+                </div>
+                                
+                <div class="col-wide">
+                    <ul>
+                        <li>Built with webpack.</li>
+                        <li>Added and filtered data to a table.</li>
+                        <li>Added react-icons and background image.</li>
+                        <li>Incorporated the React Router.</li>
+                        <li>Typechecked with PropTypes</li>
+                    </ul>
+                </div>
+                <br>
+
+                <div class="col-narrow">
+                    <h4>HTML:Basic Website Structures byJames Williamson.</h4>
+                    <p>Basic practices involved applying appropriate Content sectioning elements to given websites</p>
+                </div>
+                
+                <div class="col-wide">
+                    <ul>
+                        <li>Formatting Page Strucutres</li>
+                        <li>Displaying images</li>
+                        <li>Using nav, article, and div elements</li>
+                        <li>Linking to pages and downloadable content</li>
+                        <li>Creating lists</li>
+                        <li>Controlling styling (fonts, colors, and more)</li>
+                        <li>Writing basic scripts</li>
+                    </ul>
+                </div>
+            </div>
+             <!-- end of Technical Project Details block. -->
             
         </section>
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
-        <h2>Let's Keep in Touch!</h2>
-        
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:renli@uw.edu">renli@uw.edu</a>
-            <a href="https://www.linkedin.com/in/renqing-li-3b8688162/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/R-en" target="_blank">Github</a>
-        </div>
+    <footer role="contentInfo">
+        <div class = "content-wrap">
+            <h2>Let's Keep in Touch!</h2>
 
-        <p>Copyright 2018 by Renqing Li</p>
+            <!-- Social media and contact links. -->
+            <div class="contact-info">
+                <a href="mailto:renli@uw.edu">renli@uw.edu</a>
+                <a href="https://www.linkedin.com/in/renqing-li-3b8688162/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/R-en" target="_blank">Github</a>
+            </div>
+
+            <p>&copy; Copyright 2018 by Renqing Li</p>
+        </div>
     </footer>
 </body>
 </html>
