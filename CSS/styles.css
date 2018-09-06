@@ -1,3 +1,10 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
 /*border box fix*/
 html{
     box-sizing: border-box;
@@ -41,7 +48,7 @@ h4 {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: auto;
 }
 
@@ -58,7 +65,6 @@ h4 {
     /*min-height: 200px;*/
 }
 
-
 a {
     color: #EF233C;
 }
@@ -71,6 +77,14 @@ a:hover {
     text-transform: uppercase;
 }
 
+.btn {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
 
 /*profile image*/
 .profile-img {
@@ -79,6 +93,10 @@ a:hover {
 
 /* Header
 --------------------------------*/
+header {
+    padding-top: 50px;
+    position: relative;
+}
 header, footer{
     background: #2B2D42;
     color: #8D99AE;
@@ -91,6 +109,12 @@ header h1, header h2 {
 
 header {
     text-align: left;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* Navigation
@@ -144,7 +168,6 @@ footer{
 }
 
 .contact-info a{
-    background: white;
     padding: 10px;
     display: inline-block;
 }
