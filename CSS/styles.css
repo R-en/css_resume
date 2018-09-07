@@ -15,7 +15,7 @@ html{
 }
 
 /* Global
-----------------------------------*/
+--------------------------------*/
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -52,19 +52,6 @@ h4 {
     overflow: auto;
 }
 
-.col-narrow{
-    width: 30%;
-    float: left;
-    /*min-height: 200px;*/
-}
-
-.col-wide{
-    width: 70%;
-    float: left;
-    padding-left: 20px;
-    /*min-height: 200px;*/
-}
-
 a {
     color: #EF233C;
 }
@@ -86,7 +73,8 @@ a:hover {
 }
 
 
-/*profile image*/
+/*profile image
+--------------------------------*/
 .profile-img {
     border-radius: 50%;
 }
@@ -118,7 +106,7 @@ header {
 }
 
 /* Navigation
-----------------------------------*/
+--------------------------------*/
 nav {
     text-align: center;
     background: white;
@@ -137,7 +125,7 @@ nav a{
 
 
 /*Work
-  ---------------------------------*/
+  --------------------------------*/
 .work, .technical{
     background: #EDF2F4;
 }
@@ -155,13 +143,17 @@ h4 ~ p {
 }
 
 
-/*Education*/
+/*Education
+--------------------------------*/
 
 .education {
-    background: #8D99AE;
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/Stacked-Signature-UW-Bothell.png) no-repeat fixed;
+    background-size: cover;
 }
 
-/*footer*/
+/*footer
+--------------------------------*/
 
 footer{
     text-align: center;
@@ -170,4 +162,40 @@ footer{
 .contact-info a{
     padding: 10px;
     display: inline-block;
+}
+
+
+/*Media Queries
+--------------------------------*/
+@media (min-width: 900px){
+    .col-narrow{
+    width: 30%;
+    float: left;
+    /*min-height: 200px;*/
+}
+
+.col-wide{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    /*min-height: 200px;*/
+}
+}
+
+@media (max-width: 899px){
+    header {
+        text-align: center;
+    }
+    
+    .profile-img {
+        width: 200px;
+    }
+      
+    nav a{
+        display: inline-block;
+        padding: 5px 7px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700; /*bold*/
+    }
 }
