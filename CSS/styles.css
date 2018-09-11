@@ -90,6 +90,38 @@ header, footer{
     color: #8D99AE;
 }
 
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    position: fixed;
+    border-radius: 50%;
+    animation: bounce 4s linear infinite;
+}
+
+@keyframes bounce{
+    0% {
+        top: 0%;
+    }
+    
+    25% {
+        top:50%;
+    }
+    
+    50% {
+        top:100%;
+        background-color: red;
+    }
+    
+    75% {
+        top:50%;
+    }
+    
+    100% {
+        top:0%;
+    }
+}
+
 header h1, header h2 {
     color: #EDF2F4;
     margin: 0;
