@@ -5,4 +5,4 @@
 <p>and open the <strong>index.html</strong> with your favorite <b>browser</b>.</p>
 
 Renqing Li
-8/1/2018
+9/10/2018
